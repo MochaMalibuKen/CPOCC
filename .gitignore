@@ -10,3 +10,5 @@ yarn-error.log
 tmp
 coverage
 *.local
+*.HEIC
+*.heic
