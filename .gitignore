@@ -12,3 +12,4 @@ coverage
 *.local
 *.HEIC
 *.heic
+.env*.local
