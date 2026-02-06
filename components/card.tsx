@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 import clsx from 'clsx';
 
 interface CardProps {
-  children: ReactNode;
+  children?: ReactNode;
   title?: string;
   eyebrow?: string;
   actions?: ReactNode;
@@ -21,7 +21,7 @@ export default function Card({ children, title, eyebrow, actions, className }: C
           {actions}
         </div>
       )}
-      <div className="text-slate-700 leading-relaxed space-y-2">{children}</div>
+      {children !== undefined && <div className="text-slate-700 leading-relaxed space-y-2">{children}</div>}
     </div>
   );
 }

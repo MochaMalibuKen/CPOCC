@@ -97,7 +97,6 @@ export default function HomePage() {
                 src="https://www.instagram.com/citizensparkocc/embed"
                 title="CPOCC Instagram feed"
                 className="h-full w-full"
-                allowTransparency
                 loading="lazy"
               />
             </div>

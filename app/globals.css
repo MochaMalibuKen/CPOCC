@@ -5,6 +5,8 @@
 :root {
   color-scheme: light;
   background-color: #f4f1eb;
+  --font-heading: 'Playfair Display', 'Times New Roman', serif;
+  --font-body: 'Source Sans 3', system-ui, -apple-system, sans-serif;
 }
 
 body {
